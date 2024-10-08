@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container {
+    display: flex;
+    border-radius: 10px;
+    height: 100vh;
+    max-width: 800px;
+}
+
+.cardsedan {
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+    color: white;
+    text-align: left;
+    position: relative;
+    margin-bottom: 15px;
+
+}
+
+.cardsuv {
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    margin-bottom: 15px;
+    height: 300px;
+    position: relative;
+}
+
+.cardluxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    margin-bottom: 15px;
+    height: 300px;
+    position: relative;
+
+}
+
+.btn {
+    border-radius: 100px;
+
+    background-color: aliceblue;
+}
+
+.luxury.btn{
+    color: #f4f4f4;
+}
